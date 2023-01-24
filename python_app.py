@@ -5,5 +5,5 @@ url = 'https://www.codewithtomi.ml'
 
 r = requests.get(url)
 
-r()
+soup = BeautifulSoup(r.content, 'lxml')
 
